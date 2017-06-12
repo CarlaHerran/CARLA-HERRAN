@@ -5,9 +5,9 @@ header {
 
 .name {
   font-size: 130px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Francois One', sans-serif;
   text-shadow: 3px 3px grey;
-  color: white;
+  color: #002639;
   margin: auto;
 }
 
@@ -35,8 +35,10 @@ aside {
 .foto {
   display: block;
     margin: auto;
-    width: 25%;
-    border-radius: 70%;
+    width: 13%;
+    border-radius: 10%;
+    border: 10px;
+    border-color: red;
 }
 
 button {
@@ -70,8 +72,15 @@ color: #000000;
 }
 
 blockquote{
+
     border-left:none
 }
+
+.pull-left-box {
+    margin-right: 20px;
+    margin-bottom: 6px;
+}
+
 
 .quote-badge{
     background-color: rgba(0, 0, 0, 0.2);   
@@ -107,23 +116,20 @@ blockquote{
     font-size: 19px;
     margin-top: -65px;
 }
-
-
-
-
-
-
-
-
 .titulo {
-  font-family: 'Roboto Mono', monospace;
+ font-family: 'Roboto Mono', monospace;
 }
 
 .Texto-contenido {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  text-align: justify;
 }
 
-
+#TDSanexo {
+  font-size: 15px;
+  font-weight: bold;
+}
 
 /* Style all font awesome icons */
 .fa {
@@ -163,12 +169,21 @@ color: black;
 border-radius: 50%;
 }
 
+.fa-github {
+  background: #660066;
+color: white;
+border-radius: 50%;
+}
 
+.buttons {
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
 
+}
 
-
-
-
-
-
+.btn-purple{
+  background-color: #6e9caa !important;
+  color: whitesmoke; 
+}
 
